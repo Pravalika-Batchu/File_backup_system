@@ -70,8 +70,7 @@ File backup_file = new File("C:/Users/YourUsername/Desktop/BackupFolder/" + inpu
 
 ---
 
-## Suggestions for Future Improvements
-- Allow the user to select the backup folder at runtime.
+## Future Improvements
 - Create the backup folder automatically if it doesn't already exist.
 - Add file type validation or filters.
 - Append timestamps to backup file names to avoid accidental overwrites.
