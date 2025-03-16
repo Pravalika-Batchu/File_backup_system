@@ -90,7 +90,7 @@ public class Main{
                             return;
                         }
 
-                        File backup_file = new File("C:/Users/Pravalika/Desktop/backup/"+inputText);
+                        File backup_file = new File("address_to_ur_backup_file_location"+inputText);
 
                         try (FileInputStream fis = new FileInputStream(selected_file);
                              FileOutputStream fos = new FileOutputStream(backup_file)) {
